@@ -1,4 +1,4 @@
-#MA 1
+# Mandatory Assignment 1
 ## Author
 - Simon Lederhilger
 Change to your own fork's badge:
