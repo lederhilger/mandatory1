@@ -191,7 +191,7 @@ class Wave2D_Neumann(Wave2D):
     def Animate(self, N, Nt = 10, mx = 2, my = 2):
         import matplotlib.animation as animation
         from matplotlib import cm, rc
-        rc("text", usetex = True)
+        #rc("text", usetex = True)
         data = self(N, Nt, mx = mx, my = my, store_data = 1)
         fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
         frames = []
